@@ -1,0 +1,36 @@
+@charset"utf-8";
+
+@media screen and (min-width:643px) {
+	main {
+		background: url(../image/special_bg_01.png);
+		position: relative;
+		z-index: 1;
+	}
+
+	.main_content {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 40px;
+
+	}
+
+	.main_content-txt {
+		padding-left: 20px;
+	}
+
+	.main_content img {
+		width: 300px;
+		border: 4px solid red;
+		position: relative;
+		z-index: 4;
+	}
+
+	.main_content-txt a {
+		color: white;
+		font-weight: bold;
+		font-size: 32px;
+		position: relative;
+		z-index: 4;
+	}
+}
