@@ -2,7 +2,7 @@
 
 @media screen and (min-width:643px) {
 	main {
-		background: url(../image/special_bg_01.png);
+		background: url(../../image/special_bg_01.png);
 	}
 
 	.main_content-search {
@@ -36,6 +36,23 @@
 		height: 50px;
 	}
 
+	#bd_dvd {
+		background-color: red;
+		border: 3px solid red;
+	}
+
+	#bd_dvd a {
+		filter: none;
+	}
+
+	#tokuten {
+		width: 780px;
+	}
+
+	#tokuten a {
+		width: 780px;
+	}
+
 	.main_content-image {
 		position: relative;
 		z-index: 4;
@@ -50,10 +67,10 @@
 	}
 
 	.main_content-image li {
+		border: 5px solid white;
+		margin: 20px;
 		width: 400px;
 		height: 700px;
-		margin: 20px;
-		border: 5px solid white;
 	}
 
 	.main_content-image li img {
@@ -61,37 +78,22 @@
 		height: 350px;
 	}
 
-	.main_content-image li p {
+	.main_content-image li figcaption {
 		width: 300px;
 		text-align: center;
 		font-weight: bold;
 		font-size: 32px;
 		padding-top: 80px;
 	}
-
+	.main_content-image li:first-of-type figcaption {
+		font-size: 30px;
+	}
 	.main_content-image a {
 		display: block;
+		padding: 50px;
 		width: 300px;
 		height: 600px;
 		color: white;
-		padding: 50px;
-	}
-
-	#cd {
-		background-color: red;
-		border: 3px solid red;
-	}
-
-	#cd a {
-		filter: none;
-	}
-
-	#tokuten {
-		width: 780px;
-	}
-
-	#tokuten a {
-		width: 780px;
 	}
 
 	.main_content-search01 {
@@ -126,5 +128,4 @@
 		animation-duration: 2.5s;
 		animation-iteration-count: infinite;
 	}
-
 }

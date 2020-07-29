@@ -3,7 +3,7 @@
 
 @media screen and (min-width: 643px) {
 	main {
-		background: url(../image/special_bg_01.png);
+		background: url(../../image/special_bg_01.png);
 	}
 
 	.main_content {
@@ -19,24 +19,28 @@
 		text-align: center;
 	}
 
-	.main_content span {
+	.main_content dl {
+		text-align: left;
+		font-weight: bold;
+		padding: 50px 0;
+	}
+
+	.main_content dt {
 		font-size: 20px;
 		font-weight: normal;
 	}
 
-	.main_content h2 {
-		text-align: left;
+	.main_content dd {
 		font-size: 36px;
-		padding: 50px 0;
 	}
 
-	.main_content p {
+	.main_content figcaption {
 		text-align: left;
 		font-size: 14px;
 		padding: 50px 0;
 	}
 
-	.main_content p a {
+	.main_content figcaption a {
 		color: white;
 		font-weight: bold;
 		text-decoration: underline;
@@ -83,6 +87,14 @@
 
 	.main_pagelink a {
 		color: white;
+	}
+
+	.link_btn1 img {
+		padding-bottom: 10px;
+	}
+
+	.link_btn1 img {
+		opacity: 0.5;
 	}
 
 	#oll {
